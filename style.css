@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("./images/pexels-photo-91224.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  margin: 50px 20px;
+  padding: 20px 0px;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: darkslategrey;
+}
+.logo img {
+  width: 150px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: white;
+  color: teal;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.btn1 {
+  background-color: #8c5e5e;
+  color: wheat;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.btn1:hover {
+  color: black;
+  background-color: wheat;
+}
+.header-content {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 120px 60px;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.line {
+  border-top: 3px solid darkred;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.section-b {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content p {
+  text-align: center;
+}
+.content h2 {
+  text-align: center;
+  color: black;
+}
+.section-a h1 {
+  color: black;
+  margin: 25px;
+}
+.section-a h2 {
+  color: black;
+  text-align: center;
+  color: #8c5e5e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.section-b h2 {
+  color: black;
+  text-align: center;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+
+.content i {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+.section-c {
+  display: flex;
+}
+
+.content-c {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 640px;
+  height: 200px;
+}
+
+.section-c h2 {
+  color: black;
+  text-align: center;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+
+.content-c i {
+  text-align: center;
+  font-size: 40px;
+  color: lightcoral;
+}
+
+.even {
+  background-color: rgb(232, 213, 216);
+}
+
+.section-d {
+  display: flex;
+}
+
+.content-d {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-d i {
+  text-align: center;
+  color: black;
+}
+
+.section-d h2 {
+  color: black;
+  text-align: center;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+
+.process-icon {
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+}
+
+.process-icon:hover {
+  background-color: rgb(181, 229, 229);
+  border-radius: 25px;
+  line-height: 90px;
+  font-size: 60px;
+}
+
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: rgb(72, 72, 72);
+  padding: 20px;
+  margin-top: 10px;
+  height: 400px;
+}
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+.div1 {
+  width: 25%;
+  padding: 0 15px;
+}
+.div1 h4 {
+  font-size: 18px;
+  color: rgb(255, 249, 252);
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  font-weight: 500;
+  position: relative;
+}
+.bottomline {
+  height: 3px;
+  width: 65px;
+  background: lightcoral;
+  margin: 8px 0;
+}
+.div1 pre {
+  color: #a9a8a8;
+}
+.div1 a {
+  color: #a9a8a8;
+  font-size: 16px;
+}
+
+.div1 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 li:hover {
+  margin-left: 24px;
+}
+
+.div1 a:hover {
+  color: lightpink;
+}
+
+.fa-brands {
+  font-size: 24px;
+  padding: 12px;
+  background-color: grey;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa-brands:hover {
+  background-color: lightpink;
+  color: black;
+}
+
+.btn-dark {
+  padding: 10px;
+  margin-top: 54px;
+}
+
+.btn-dark:hover {
+  background-color: rgb(166, 130, 142);
+  color: black;
+}
+
+.div1 h3 {
+  margin-bottom: 24px;
+}
+
+.div1 li {
+  margin-bottom: 24px;
+}
+
+.div1 pre {
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
